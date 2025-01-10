@@ -16,7 +16,7 @@ while (temp > 0)
         {
             qaliq = 0;            
             qaliq = temp1 % 10;
-            binary = (binary + qaliq) *10;
+            binary = binary *10 +qaliq;
             temp1 = temp1 / 10;
          }
     }
